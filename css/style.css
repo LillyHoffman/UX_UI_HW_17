@@ -10,7 +10,7 @@ body {
     background-image: url("../images/red-pink-marble-background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: center;
     height: 100vh;
 }
 
@@ -19,24 +19,27 @@ body {
     text-decoration: underline;
 
 }
+
 .navbar-light .navbar-nav .nav-link {
-    color:rgb(0, 0, 0) !important;
+    color: rgb(0, 0, 0) !important;
 
 }
 
 .navbar-collapse {
     flex-grow: unset;
 }
+
 .navbar-expand-lg .navbar-nav li {
-    padding:5%;
+    padding: 5%;
 }
-nav{
+
+nav {
     padding-left: 40px;
     padding-right: 40px;
 }
 
 nav .hamburger {
-    width:180px ;
+    width: 180px;
     text-align: right;
 }
 
@@ -45,7 +48,7 @@ nav .hamburger {
     display: flex;
     align-items: center;
     justify-content: center;
-    height:60%;
+    height: 60%;
 
 }
 
@@ -63,7 +66,7 @@ nav .hamburger {
 
 
 .jumbotron h1 span {
-  
+
     font-weight: 300;
 
 }
@@ -72,7 +75,66 @@ nav .hamburger {
     background-color: rgb(0, 0, 0);
 }
 
-/* adventure section */
+.poi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.row {
+    padding-top: 100px;
+}
+
+.menu {
+    padding-top: 25px;
+}
+
+.lol {
+    font-size: 30px;
+
+}
+
+.display-4 {
+    padding-bottom: 30px;
+}
+
+
+
+.viewwork {
+    display: inline-block;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    /* Set border color and width */
+    background-color: transparent;
+    /* Set background color to transparent */
+    color: #ffffff;
+    cursor: pointer;
+}
+
+span {
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -84,38 +146,38 @@ nav .hamburger {
 }
 
 #adventure h2 {
- text-align:center;
- font-size:38px;
- margin-bottom:100px;
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 100px;
 
 }
 
 
 #adventure .adventure-card {
-background-image: url("../images/adventure-card.png");
-background-size:cover ;
-height:565px;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-bottom:20px;
+    background-image: ("images/adventure-card.png");
+    background-size: cover;
+    height: 565px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .adventure-card .card-items {
-    margin-left:40px;
-    margin-right:60px;
-    color:white;
-
+    margin-left: 40px;
+    margin-right: 60px;
+    color: black;
+    text-align: center;
 }
 
- .btn-primary {
+.btn-primary {
     background-color: rgba(0, 0, 0, 0.0);
     border-color: #ffffff00;
     border-radius: 0;
 }
 
 .btn-primary:hover {
-    background-color:#FA5656;
+    background-color: #FA5656;
     border-color: #FA5656;
 }
 
@@ -129,26 +191,26 @@ footer {
 
 
 .adventure-card .card-items .card-icon {
-    width:75%;
+    width: 80%;
 
 }
 
 
- h2 .yellow {
-    color:#000000;
-    font-size: 60%;
+h2 .yellow {
+    color: #000000;
+    font-size: 40px;
     display: block;
-    font-weight:normal;
-}
-h4 {
-    color:white;
+    font-weight: medium;
 }
 
-/* Location Section */
+h4 {
+    color: white;
+}
+
 
 #locations {
-    padding:200px 0px 100px;
-    background-image:url("../images/hollywood.png");
+    padding: 200px 0px 100px;
+    background-image: url("../images/hollywood.png");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -165,61 +227,52 @@ h4 {
     margin-bottom: 20px;
     background-repeat: no-repeat;
     background-color: #edeaea;
-    }
-
-.yosemite {
-        background-image: url(../images/yosemite-background.png);  
 }
 
-.joshua {
-    background-image: url(../images/joshua-background.png);  
-}
-.sanfran {
-    background-image: url(../images/sf-background.png);  
-}
+
 
 
 
 #locations .location-card .card-items {
     background-color: white;
     margin: 0px 30px 50px 30px;
-    padding:20px;
-    
-}       
+    padding: 20px;
+
+}
 
 
 .location-item .card-items h3 {
 
-    font-size:20px;
-    width:45%;
-    
-    
+    font-size: 20px;
+    width: 45%;
+
+
 }
 
 .location-item .card-items .heading {
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    }
+}
 
 
- /* Mailing List     */
+/* Mailing List     */
 
 #subscribe {
 
     background-image: url("../images/sf-bridge.png");
 
-    color:white;
+    color: white;
     text-align: center;
     background-size: cover;
 }
 
 #subscribe h2 {
-    margin-bottom:30px;
+    margin-bottom: 30px;
 
 }
 
-#subscribe p{
-    margin-bottom:30px;
+#subscribe p {
+    margin-bottom: 30px;
 
 }
 
@@ -234,18 +287,20 @@ h4 {
     display: flex;
     justify-content: center;
 }
+
 #subscribe input {
-    height:50px;
+    height: 50px;
     border-radius: 0;
-    width:60%;
-    margin-right:20px !important;
-  
+    width: 60%;
+    margin-right: 20px !important;
+
 
 
 }
 
 body {
-    overflow: auto; /* Add a scrollbar if the content overflows */
+    overflow: auto;
+    /* Add a scrollbar if the content overflows */
 }
 
 
@@ -268,26 +323,33 @@ body * {
 footer ul {
     display: flex;
     justify-content: space-around;
-    list-style-type: none;padding:10px;
+    list-style-type: none;
+    padding: 10px;
 
-    
-    
+
+
 }
 
 
 footer ul li a {
-    color:white;
-    text-decoration:none;
-    
+    color: white;
+    text-decoration: none;
+
 }
 
 .back-top {
 
-    padding:30px;
+    padding: 30px;
 }
 
-.back-top  img {
+.back-top img {
     transform: rotate(180deg);
 
 }
 
+.viewwork:hover {
+    background-color: #fff;
+    /* Set background color to white */
+    color: #000;
+    /* Set text color to black */
+}
